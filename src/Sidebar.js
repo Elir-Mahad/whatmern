@@ -12,9 +12,11 @@ function Sidebar() {
 		<div className="sidebar">
 			<h1>Side bar</h1>
 			<div className="sidebar_header">
+				<Avatar src="https://i.pinimg.com/280x280_RS/c5/db/7f/c5db7f245e3cd39c4d6c518dafa97e59.jpg" />
 				<div className="sidebar_headerRight">
-					{/* When you wrap an icon inside IconButton, 
-					when the icon is hovered over and clicked 
+					{/* For the icons below we are going to 
+					wrap each icon inside IconButton. 
+					As a result, when the icon is hovered over and clicked 
 					it will have a little animation */}
 					<IconButton>
 						<DonutLargeIcon />
