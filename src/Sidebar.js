@@ -32,8 +32,7 @@ function Sidebar() {
 					</IconButton>
 				</div>
 			</div>
-
-			<div className="sidebard_search">
+			<div className="sidebar_search">
 				<div className="sidebar_searchContainer">
 					<SearchOutlined />
 					<input placeholder="search or start new chat" type="text" />
