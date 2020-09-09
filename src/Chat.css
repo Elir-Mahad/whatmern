@@ -12,6 +12,11 @@
 	border-bottom: 1px solid lightgray;
 }
 
+.chat_headerRight .MuiSvgIcon-root {
+	padding: 3px;
+	font-size: 24px !important;
+}
+
 .chat_headerInfo {
 	flex: 1;
 	padding-left: 20px;
@@ -26,7 +31,33 @@
 	color: gray;
 }
 
-.chat_headerRight .MuiSvgIcon-root {
-	padding: 3px;
-	font-size: 24px !important;
+.chat_body {
+	flex: 1;
+	background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+	background-repeat: repeat;
+	background-position: center;
+	padding: 30px;
+	overflow: scroll;
+}
+
+.chat_message {
+	position: relative;
+	font-size: 16px;
+	padding: 10px;
+	width: fit-content;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin-bottom: 30px;
+}
+
+.margin_stamp {
+	margin-left: 10px;
+	font-size: xx-small;
+}
+
+.chat_name {
+	position: absolute;
+	top: -15px;
+	font-weight: 800;
+	font-size: xx-small;
 }
