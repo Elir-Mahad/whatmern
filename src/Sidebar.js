@@ -2,9 +2,9 @@ import React from "react";
 import "./Sidebar.css";
 
 // material ui
-import DonutLargeIcon from "@material-ui/icons/DonutLarge";
-import ChatIcon from "@material-ui/icons/Chat";
-import MoreVertIcon from "@material-ui/icons/MoreVert";
+import DonutLarge from "@material-ui/icons/DonutLarge";
+import Chat from "@material-ui/icons/Chat";
+import MoreVert from "@material-ui/icons/MoreVert";
 import SearchOutlined from "@material-ui/icons/SearchOutlined";
 import { Avatar, IconButton } from "@material-ui/core";
 import SidebarChat from "./SidebarChat";
@@ -12,7 +12,6 @@ import SidebarChat from "./SidebarChat";
 function Sidebar() {
 	return (
 		<div className="sidebar">
-			<h1>Side bar</h1>
 			<div className="sidebar_header">
 				<Avatar src="https://i.pinimg.com/280x280_RS/c5/db/7f/c5db7f245e3cd39c4d6c518dafa97e59.jpg" />
 				{/*  */}
@@ -22,15 +21,15 @@ function Sidebar() {
 					As a result, when the icon is hovered over and clicked 
 					it will have a little animation */}
 					<IconButton>
-						<DonutLargeIcon />
+						<DonutLarge />
 					</IconButton>
 					{/*  */}
 					<IconButton>
-						<ChatIcon />
+						<Chat />
 					</IconButton>
 					{/*  */}
 					<IconButton>
-						<MoreVertIcon />
+						<MoreVert />
 					</IconButton>
 				</div>
 			</div>
